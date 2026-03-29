@@ -1,0 +1,47 @@
+# Bitwing Core — Python 의존성
+# FastAPI + 서버
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+websockets==14.1
+
+# Database
+sqlalchemy==2.0.36
+aiomysql==0.2.0
+mysqlclient==2.2.6
+alembic==1.14.0
+
+# AI
+anthropic==0.42.0
+
+# 작업 큐
+celery==5.4.0
+redis==5.2.1
+
+# 인증
+python-jose[cryptography]==3.3.0
+
+# 설정
+python-dotenv==1.0.1
+pydantic-settings==2.7.0
+
+# HTTP 클라이언트
+httpx==0.28.1
+
+# Google API
+google-api-python-client==2.150.0
+google-auth-oauthlib==1.2.1
+
+# OCR
+pytesseract==0.3.13
+Pillow==11.0.0
+
+# 크롤링
+playwright==1.49.0
+beautifulsoup4==4.12.3
+
+# 유틸리티
+openpyxl==3.1.5
+python-dateutil==2.9.0
+loguru==0.7.3
+cryptography==44.0.0
+python-multipart==0.0.18

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (Dashboard)
+bitwing-dashboard/node_modules/
+bitwing-dashboard/dist/
+
+# Logs
+logs/
+*.log
+
+# Temp
+_smb_tmp/
+*.bak
+
+# Config (secrets)
+config/config.ini
